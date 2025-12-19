@@ -1,10 +1,10 @@
 {
   "mappings": [
-    "/content/aem-boilerplate/:/",
-    "/content/aem-boilerplate/configuration:/.helix/config.json",
-    "/content/aem-boilerplate/metadata:/metadata.json"
+    "/content/sada-servicos-graficos/:/",
+    "/content/sada-servicos-graficos/configuration:/.helix/config.json",
+    "/content/sada-servicos-graficos/metadata:/metadata.json"
   ],
   "includes": [
-    "/content/aem-boilerplate/"
+    "/content/sada-servicos-graficos/"
   ]
 }
