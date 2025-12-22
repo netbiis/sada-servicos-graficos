@@ -3,25 +3,22 @@ footer {
   font-size: var(--body-font-size-xs);
 }
 
+footer .footer > div {
+  margin: auto;
+  padding: 40px 0 0;
+}
 
 footer .section.align-centered > div {
   text-align: center;
-}
-
-footer .footer > div {
-  margin: auto;
-  padding: 40px 0px 0px;
 }
 
 footer .footer p {
   margin: 0;
 }
 
-
 footer .section:nth-child(1) {
   padding-bottom: 70px;
 }
-
 
 footer .section:nth-child(3) {
   margin-top: 25px;
@@ -30,7 +27,6 @@ footer .section:nth-child(3) {
   background-color: var(--dark-color);
   color: var(--light-color );
 }
-
 
 footer ul {
   list-style: none;
@@ -51,13 +47,10 @@ footer  ul > li > ul > li {
   font-weight: 400;
 }
 
-
-
 @media (width >= 900px) {
   footer .footer > div {
-    padding: 40px 0px 0px;
+    padding: 40px 0 0;
   }
-
 
   footer ul {
     display: flex;
